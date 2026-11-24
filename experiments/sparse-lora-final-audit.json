@@ -1,0 +1,13 @@
+{
+  "correct": 195,
+  "n": 240,
+  "accuracy": 81.25,
+  "model_completions": 14,
+  "max_completions_per_task": 1,
+  "max_generated_tokens": 46,
+  "actual_model_and_adapter_parameters": 597196800,
+  "frozen_sources_verified": 8,
+  "adapter_matches_train_only_provenance": true,
+  "source": "experiments\\sparse_lora_v1_frozen",
+  "limitations": "Windows measured; no independent Linux reproduction. Public test aggregate scores observed; no hidden-test generalization claim. Older report/release artifacts are not updated."
+}

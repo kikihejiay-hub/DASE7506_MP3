@@ -16,7 +16,7 @@ The PDF inside the published source ZIP is the frozen submission snapshot. Editi
 - [Versioned Release](https://github.com/kikihejiay-hub/DASE7506_MP3/releases/tag/mp3-81_25-v1)
 - [Complete official score JSON](test-score.json)
 
-The source ZIP contains the frozen implementation, configuration, dependencies, PDF report, reproduction commands, training records, generation logs, complete predictions and score evidence. The adapter ZIP contains exactly adapter_config.json and adapter_model.safetensors. Base weights, course databases and environments are excluded. Duplicate ZIP copies and auxiliary documents have been removed from the repository root; download the submission packages from the Release above.
+The source ZIP contains the frozen implementation, configuration, dependencies, PDF report, reproduction commands, training records, generation logs, complete predictions and score evidence. The adapter ZIP contains exactly adapter_config.json and adapter_model.safetensors. Base weights, course databases and environments are excluded. The final source and evidence are also expanded in this repository for direct inspection. Download the adapter and fixed submission ZIPs from the Release above.
 
 ## Model and reproduction
 
@@ -27,3 +27,14 @@ Extract the source ZIP into the unchanged course package root, provision the pin
 Use four CPU threads and workers=1, float32, no quantization. Independent Linux reproduction has not been completed. Data-use and external-assistance disclosures are retained in the report.
 
 Uploading repository files does not create a course submission. Select test-score.json on the course project page, provide the two fixed ZIP links and your student ID, then actually create the prepared submission issue.
+
+## Repository contents
+
+- submission/: final agent modules and Windows/Linux reproduction scripts.
+- xperiments/sparse_lora_v1_frozen/: frozen implementation and SHA-256 manifest used for the reported result.
+- xperiments/: training code, provenance, training log, audit, ablation configurations and evaluation helpers.
+- outputs/: recorded predictions, official scores, validation and ablation results, generation logs and train-only development trajectories.
+- [REPRODUCE.md](REPRODUCE.md): setup and reproduction instructions; config.json and the two requirements files declare configuration and dependencies.
+- [report.md](report.md): editable report. Base model weights and course databases must be provisioned separately; the adapter is in the Release.
+
+The expanded source files match the published source ZIP. Later edits to this repository do not modify the existing versioned Release.

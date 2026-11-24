@@ -1,0 +1,11 @@
+{
+  "method": "experiments/sparse_lora_v1_frozen/sparse_lora_agent.py",
+  "workers": 1,
+  "checkpoint": "experiments\\final-ablations\\no-values.json",
+  "wall_seconds": 31.398798199836165,
+  "sampled_cpu_seconds": 11.453125,
+  "sampled_peak_group_rss": 75628544,
+  "main_peak_rss": 4517888,
+  "sampling_interval_seconds": 0.2,
+  "predictor_exit_code": 0
+}

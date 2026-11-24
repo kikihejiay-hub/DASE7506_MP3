@@ -1,0 +1,20 @@
+{
+  "base_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "files": {
+    "sparse_lora_agent.py": "b40aee514b170b0ce1f7ad7d95116c07cab1edbf2b25d1980054f753bdcac5aa",
+    "terminal_agent.py": "5457dad0cbeb7f435a7ec93e51da537b25c6287679f03f378ea94895d2c3fab4",
+    "planned_agent.py": "de2ade8d3dfeee937281fc956107b2147c29dac64aa7254813769d3a169db204",
+    "relational_rules.py": "410dfd3e0b6b6de85ef53063a3798bef9566f2aa34db6638c3842647d435d991",
+    "submission.py": "98e6b1743ffcd19640531b030e37ae01cd088189c72c5e87e308c5bdb2fda341",
+    "model_agent.py": "de152cf5a643e3267295d67771f2102bf78bfbe259045dece799aacebe8cb0fa",
+    "sql_decoder.py": "c1375b484846ee9297402462d907cd1a1d4c0b6efd21e83431ad39775c74a360",
+    "sql_selection.py": "c2bb643ab3acd88d9d3cb34a6aeb763e2e8a038311449482ebdb0561db465e13"
+  },
+  "training_provenance": "experiments/lora-provenance.json",
+  "route": "one-own-Qwen3-LoRA",
+  "adapter_sha256": "0e9eec8c7c6d1059d3b50c947ee9a6f615f5060daf5e43f909c5895fc2ffde36",
+  "max_completions": 1,
+  "workers": 1,
+  "max_new_tokens": 384,
+  "entry": "sparse_lora_agent.py"
+}
