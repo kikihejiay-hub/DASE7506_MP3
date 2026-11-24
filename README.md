@@ -11,9 +11,9 @@ The PDF inside the published source ZIP is the frozen submission snapshot. Editi
 
 ## Submission downloads
 
-- [Source ZIP](https://github.com/kikihejiay-hub/DASE7506_MP3/releases/download/mp3-81_25-v1/final-source-81_25.zip)
-- [LoRA adapter ZIP](https://github.com/kikihejiay-hub/DASE7506_MP3/releases/download/mp3-81_25-v1/final-adapter-81_25.zip)
-- [Versioned Release](https://github.com/kikihejiay-hub/DASE7506_MP3/releases/tag/mp3-81_25-v1)
+- [Source ZIP](https://github.com/kikihejiay-hub/DASE7506_MP3/releases/download/mp3-81_25-v2/final-source-81_25-v2.zip)
+- [LoRA adapter ZIP](https://github.com/kikihejiay-hub/DASE7506_MP3/releases/download/mp3-81_25-v2/final-adapter-81_25.zip)
+- [Versioned Release](https://github.com/kikihejiay-hub/DASE7506_MP3/releases/tag/mp3-81_25-v2)
 - [Complete official score JSON](test-score.json)
 
 The source ZIP contains the frozen implementation, configuration, dependencies, PDF report, reproduction commands, training records, generation logs, complete predictions and score evidence. The adapter ZIP contains exactly adapter_config.json and adapter_model.safetensors. Base weights, course databases and environments are excluded. The final source and evidence are also expanded in this repository for direct inspection. Download the adapter and fixed submission ZIPs from the Release above.
@@ -37,4 +37,4 @@ Uploading repository files does not create a course submission. Select test-scor
 - [REPRODUCE.md](REPRODUCE.md): setup and reproduction instructions; config.json and the two requirements files declare configuration and dependencies.
 - [report.md](report.md): editable report. Base model weights and course databases must be provisioned separately; the adapter is in the Release.
 
-The expanded source files match the published source ZIP. Later edits to this repository do not modify the existing versioned Release.
+The source ZIP v2 includes the updated PDF generated from the current report.md; model code, adapter and recorded results remain unchanged. The expanded source files match the published source ZIP. Later edits to this repository do not modify the existing versioned Release.
