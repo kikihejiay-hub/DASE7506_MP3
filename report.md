@@ -123,12 +123,3 @@ OpenAI Codex assisted implementation, analysis, prompt.
 
 Supply the source export, dependency lists, this report, reproduction commands, training logs/provenance, complete original test predictions and unchanged official score JSON. Base weights, data, environments and caches must be excluded. Supply a separate adapter ZIP containing exactly adapter_config.json and adapter_model.safetensors. The local official score is self-reported; instructor reproduction and eligibility review remain outstanding. The source and adapter archives are published in the versioned GitHub Release. Creating the course submission issue and obtaining instructor verification are separate steps.
 
-### References
-
-[Course specification](https://xudongwu-0.github.io/courses/dase7506/mp3/)
-
-[Approved Qwen3 base](https://huggingface.co/Qwen/Qwen3-0.6B/tree/c1899de289a04d12100db370d81485cdf75e47ca)
-
-[Public CPU-agent review](https://github.com/xudongwu-0/xudongwu-0.github.io/issues/397)
-
-[Public sparse-rescue architecture review](https://github.com/JINWEI-1031/mp3-dase7506/tree/d19ef7f8e14db295e7ddf695353502619d79a51d)
