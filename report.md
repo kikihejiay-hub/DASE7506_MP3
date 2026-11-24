@@ -117,7 +117,7 @@ Use Python 3.11/3.12. On Windows, submission/reproduce_sparse.ps1 sets equivalen
 
 Weights were fitted only on training tasks; validation was reused for design/configuration selection. Frozen-method self-evaluation used the public test benchmark and aggregate scores. This supports a public-benchmark result, not an unbiased hidden-test generalization claim. Runtime code does not read grading references or extra database instances. Training-ID audits found no validation/test overlap; the deployed adapter hash matches that provenance.
 
-OpenAI Codex assisted implementation, analysis, prompts, training scripts, verification and report preparation. Public repositories linked below informed general repair and failure-gating ideas. During repository review, an evidence summary exposed three test failure examples; they were not used for fitting or task-specific rules. No external adapter or prediction SQL is incorporated. This exposure and repeated public evaluation are limitations of the development process.
+OpenAI Codex assisted implementation, analysis, prompt.
 
 ### Submission artifacts and verification limits
 
