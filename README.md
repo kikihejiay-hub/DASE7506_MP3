@@ -29,3 +29,11 @@ The original course framework/data, base weights, virtual environments and cache
 External assistance and data-use limitations are disclosed in the report.
 
 Uploading this repository does not submit a course score. Use the course project page to select the score JSON, provide the two immutable ZIP download links and your student ID, and actually create the prepared GitHub issue.
+
+## Fixed Release download links
+
+- [Source ZIP](https://github.com/kikihejiay-hub/DASE7506_MP3/releases/download/mp3-81_25-v1/final-source-81_25.zip)
+- [Adapter ZIP](https://github.com/kikihejiay-hub/DASE7506_MP3/releases/download/mp3-81_25-v1/final-adapter-81_25.zip)
+- [Release page](https://github.com/kikihejiay-hub/DASE7506_MP3/releases/tag/mp3-81_25-v1)
+
+The Release assets match the SHA-256 values in package-audit.json. This repository upload and Release publication do not create the course submission issue.
